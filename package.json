@@ -1,0 +1,29 @@
+{
+  "name": "swiftstay",
+  "version": "1.0.0",
+  "description": "an end to end travel booking app",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PRAJWAL202499/SwiftStay.git"
+  },
+  "keywords": [
+    "swiftStay",
+    "travel",
+    "airbnb"
+  ],
+  "author": "Prajwal G S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PRAJWAL202499/SwiftStay/issues"
+  },
+  "homepage": "https://github.com/PRAJWAL202499/SwiftStay#readme",
+  "dependencies": {
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.2"
+  }
+}
