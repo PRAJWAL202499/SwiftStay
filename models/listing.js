@@ -8,6 +8,7 @@ const listingSchema = new schema({
     description : String,
     image : {
         type : String,
+        default : "https://pixabay.com/images/search/travel/",
         set : (v) => v === "" ? "https://pixabay.com/images/search/travel/" : v,
     },
     price : {
