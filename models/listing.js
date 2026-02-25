@@ -7,9 +7,15 @@ const listingSchema = new schema({
     },
     description : String,
     image : {
-        type : String,
-        default : "https://pixabay.com/images/search/travel/",
-        set : (v) => v === "" ? "https://pixabay.com/images/search/travel/" : v,
+        filename: {
+            type: String,
+            default: "listingimage"
+        },
+        url: {
+            type: String,
+            default: "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60",
+            set: (v) => v === "" ? "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60" : v,
+        }
     },
     price : {
         type : Number,
