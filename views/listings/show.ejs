@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= listing.title %></title>
-</head>
+<% layout('/layouts/boilerplate.ejs') -%>
 <body>
     <h2>Listing Details</h2>
     <ul>
@@ -18,4 +12,3 @@
     <a href="/listings/<%= listing._id %>/edit">edit this listing</a>
     <a href="/listings/<%= listing._id %>/delete">delete this listing</a>
 </body>
-</html>
